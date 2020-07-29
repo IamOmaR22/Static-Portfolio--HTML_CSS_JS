@@ -234,7 +234,8 @@ h6 {font-size: 16px;}
 .right-column{
     grid-area: right-column;
     display: grid;
-	align-content: center;
+    align-content: center;
+    
     padding-top: 80px;
 	padding-bottom: 80px;
 }
@@ -256,6 +257,18 @@ h6 {font-size: 16px;}
 	position: relative;
 }
 /* Right column End */
+
+
+/* About Wrapper Start */
+.about-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#skills{
+    display: flex;
+}
+/* About Wrapper End */
 
 
 /* Media Query Start */
