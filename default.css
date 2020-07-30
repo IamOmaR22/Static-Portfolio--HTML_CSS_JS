@@ -75,7 +75,9 @@ h6 {font-size: 16px;}
 /* Main Container End */
 
 
-/* First wrapper Start */
+/* First Section (Intro Section) Start */
+
+/* First wrapper (Greeting Wrapper) Start */
 .greeting-wrapper{
     display: grid;
     /* justify-content: center; */
@@ -84,7 +86,8 @@ h6 {font-size: 16px;}
     /* border: 2px dashed lightcoral; */
     min-height: 10em;
 }
-/* First wrapper End */
+/* First wrapper (Greeting Wrapper) End */
+
 
 /* Second wrapper (Introduction wrapper) Start */
 .intro-wrapper{
@@ -258,6 +261,11 @@ h6 {font-size: 16px;}
 }
 /* Right column End */
 
+/* First Section (Intro Section) End */
+
+
+
+/* Second Section (About Section) Start */
 
 /* About Wrapper Start */
 .about-wrapper{
@@ -268,13 +276,17 @@ h6 {font-size: 16px;}
     padding-bottom: 50px;
     gap: 100px;
 }
+/* About Wrapper End */
 
+/* Left column Start */
 #skills{
     display: flex;
     justify-content: space-evenly;
     background-color: var(--previewShadow);
 }
+/* Left column End */
 
+/* Right column Start */
 .social-links{
     display: grid;
     align-content: center;
@@ -284,9 +296,13 @@ h6 {font-size: 16px;}
 #social_img{
     width: 100%;
 }
-/* About Wrapper End */
+/* Right column End */
+
+/* Second Section (About Section) End */
 
 
+
+/* Third Section (Portfolio/Blog Section) Start */
 
 /* Portfolio/Blog Post Wrapper Start */
 .post-wrapper{
@@ -296,7 +312,9 @@ h6 {font-size: 16px;}
     justify-content: center;
     padding-bottom: 50px;
 }
+/* Portfolio/Blog Post Wrapper End */
 
+/* Post Start */
 .post{
     border: 1px solid var(--borderColor);
 
@@ -327,6 +345,12 @@ h6 {font-size: 16px;}
     color: #4b5156;
     font-size: 14px;
 }
+/* Post Start */
+
+/* Third Section (Portfolio/Blog Section) Start */
+
+
+
 /* Media Query Start */
 
 /* Main Container Media Query Start */
@@ -357,4 +381,4 @@ h6 {font-size: 16px;}
 }
 /* Second wrapper (Introduction wrapper) Media Query End */
 
-/* Media Query Start */
+/* Media Query End */
