@@ -296,6 +296,29 @@ h6 {font-size: 16px;}
 #social_img{
     width: 100%;
 }
+
+.social-links .fab {
+    margin: 20px;
+    color: var(--buttonColor);
+  }
+  .social-links .fab .tooltiptext {
+    visibility: hidden;
+    font-size: 12px;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  .fab:hover .tooltiptext {
+    visibility: visible;
+  }
+  
 /* Right column End */
 
 /* Second Section (About Section) End */
