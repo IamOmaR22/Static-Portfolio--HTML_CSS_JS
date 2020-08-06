@@ -22,6 +22,10 @@ html, body{
     margin: 0;
 }
 
+body *{
+    transition: 0.3s;
+}
+
 
 /* Tags color, size, font-family etc Start */
 h1, h2, h3, h4, h5, h6, strong{
@@ -122,6 +126,10 @@ h6 {font-size: 16px;}
     background-color: var(--mainColor);
 }
 
+#navigation a{
+	color: var(--mainText);
+}
+
 #navigation{
 	margin:0;
 	padding: 10px;
@@ -219,9 +227,9 @@ h6 {font-size: 16px;}
     background-color: #78866b;
 }
 
-/* #purple-mode{
+#purple-mode{
     background-color: #7e4c74;
-} */
+}
 
 #mountainMeadow-mode{
     background-color: #17b3a3;
